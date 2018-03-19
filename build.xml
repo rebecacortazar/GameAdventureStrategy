@@ -5,15 +5,7 @@
    	<property name="build.dir" location="bin"/>
    	
 	
-	
-	
-	<path id="classpath">
-		<fileset dir="${lib.dir}">
-			<include name="*.jar"/>
-		</fileset>
-		<pathelement location="${build.dir}"/>
-	 </path>
-	
+		
 	<target name="help">
 		<echo>Usage: ant [build | clean | TVProgramReportGenerator]</echo>
 	</target>
